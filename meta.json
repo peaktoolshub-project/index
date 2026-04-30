@@ -1,0 +1,556 @@
+{
+  "tools": [
+    {
+      "id": "salary-calculator",
+      "name": "Salary Calculator",
+      "cluster": "finance",
+      "icon": "\ud83d\udcb5",
+      "desc": "Net pay after deductions"
+    },
+    {
+      "id": "income-tax-calculator",
+      "name": "Income Tax Calculator",
+      "cluster": "finance",
+      "icon": "\ud83e\uddfe",
+      "desc": "Calculate your tax liability"
+    },
+    {
+      "id": "epf-calculator",
+      "name": "EPF Calculator",
+      "cluster": "finance",
+      "icon": "\ud83c\udfe6",
+      "desc": "Retirement savings projection"
+    },
+    {
+      "id": "loan-calculator",
+      "name": "Loan Calculator",
+      "cluster": "finance",
+      "icon": "\ud83d\udcb3",
+      "desc": "Monthly payment & interest"
+    },
+    {
+      "id": "mortgage-calculator",
+      "name": "Mortgage Calculator",
+      "cluster": "finance",
+      "icon": "\ud83c\udfe0",
+      "desc": "Home loan calculator"
+    },
+    {
+      "id": "car-loan-calculator",
+      "name": "Car Loan Calculator",
+      "cluster": "finance",
+      "icon": "\ud83d\ude97",
+      "desc": "Vehicle financing calculator"
+    },
+    {
+      "id": "credit-card-interest",
+      "name": "Credit Card Interest",
+      "cluster": "finance",
+      "icon": "\ud83d\udcb3",
+      "desc": "Interest & payoff calculator"
+    },
+    {
+      "id": "compound-interest",
+      "name": "Compound Interest",
+      "cluster": "finance",
+      "icon": "\ud83d\udcc8",
+      "desc": "Grow your investments"
+    },
+    {
+      "id": "investment-returns",
+      "name": "Investment Returns",
+      "cluster": "finance",
+      "icon": "\ud83d\udcca",
+      "desc": "Portfolio growth calculator"
+    },
+    {
+      "id": "inflation-calculator",
+      "name": "Inflation Calculator",
+      "cluster": "finance",
+      "icon": "\ud83d\udcb9",
+      "desc": "Purchasing power over time"
+    },
+    {
+      "id": "age-calculator",
+      "name": "Age Calculator",
+      "cluster": "datetime",
+      "icon": "\ud83c\udf82",
+      "desc": "Exact age in years/months/days"
+    },
+    {
+      "id": "date-difference",
+      "name": "Date Difference",
+      "cluster": "datetime",
+      "icon": "\ud83d\udcc6",
+      "desc": "Days between two dates"
+    },
+    {
+      "id": "working-days",
+      "name": "Working Days Calculator",
+      "cluster": "datetime",
+      "icon": "\ud83d\udcc5",
+      "desc": "Business days between dates"
+    },
+    {
+      "id": "public-holidays",
+      "name": "Public Holiday Calendar",
+      "cluster": "datetime",
+      "icon": "\ud83d\uddd3\ufe0f",
+      "desc": "Holidays by country"
+    },
+    {
+      "id": "long-weekend-planner",
+      "name": "Long Weekend Planner",
+      "cluster": "datetime",
+      "icon": "\ud83c\udfd6\ufe0f",
+      "desc": "Find all long weekends"
+    },
+    {
+      "id": "annual-leave-optimizer",
+      "name": "Annual Leave Optimizer",
+      "cluster": "datetime",
+      "icon": "\ud83d\udd25",
+      "desc": "Maximize your days off"
+    },
+    {
+      "id": "school-holidays",
+      "name": "School Holiday Calendar",
+      "cluster": "datetime",
+      "icon": "\ud83c\udf92",
+      "desc": "School terms & holidays"
+    },
+    {
+      "id": "countdown-timer",
+      "name": "Countdown Timer",
+      "cluster": "datetime",
+      "icon": "\u23f3",
+      "desc": "Count down to any event"
+    },
+    {
+      "id": "currency-converter",
+      "name": "Currency Converter",
+      "cluster": "converters",
+      "icon": "\ud83d\udcb1",
+      "desc": "170+ world currencies"
+    },
+    {
+      "id": "length-converter",
+      "name": "Length Converter",
+      "cluster": "converters",
+      "icon": "\ud83d\udccf",
+      "desc": "mm, cm, m, km, inches, feet"
+    },
+    {
+      "id": "weight-converter",
+      "name": "Weight Converter",
+      "cluster": "converters",
+      "icon": "\u2696\ufe0f",
+      "desc": "kg, lb, oz, stone and more"
+    },
+    {
+      "id": "temperature-converter",
+      "name": "Temperature Converter",
+      "cluster": "converters",
+      "icon": "\ud83c\udf21\ufe0f",
+      "desc": "Celsius, Fahrenheit, Kelvin"
+    },
+    {
+      "id": "timezone-converter",
+      "name": "Time Zone Converter",
+      "cluster": "converters",
+      "icon": "\ud83d\udd50",
+      "desc": "Convert between timezones"
+    },
+    {
+      "id": "data-storage-converter",
+      "name": "Data Storage Converter",
+      "cluster": "converters",
+      "icon": "\ud83d\udcbe",
+      "desc": "MB, GB, TB and more"
+    },
+    {
+      "id": "speed-converter",
+      "name": "Speed Converter",
+      "cluster": "converters",
+      "icon": "\ud83d\ude80",
+      "desc": "km/h, mph, knots, Mach"
+    },
+    {
+      "id": "cooking-converter",
+      "name": "Cooking Converter",
+      "cluster": "converters",
+      "icon": "\ud83c\udf73",
+      "desc": "Cups, ml, tbsp, tsp"
+    },
+    {
+      "id": "discount-calculator",
+      "name": "Discount Calculator",
+      "cluster": "daily",
+      "icon": "\ud83c\udff7\ufe0f",
+      "desc": "Sale price & savings"
+    },
+    {
+      "id": "percentage-calculator",
+      "name": "Percentage Calculator",
+      "cluster": "daily",
+      "icon": "%",
+      "desc": "3 percentage modes"
+    },
+    {
+      "id": "tip-calculator",
+      "name": "Tip Calculator",
+      "cluster": "daily",
+      "icon": "\ud83c\udf7d\ufe0f",
+      "desc": "Split bills with tip"
+    },
+    {
+      "id": "split-bill",
+      "name": "Split Bill Calculator",
+      "cluster": "daily",
+      "icon": "\ud83d\udc65",
+      "desc": "Divide bills fairly"
+    },
+    {
+      "id": "fuel-cost",
+      "name": "Fuel Cost Calculator",
+      "cluster": "daily",
+      "icon": "\u26fd",
+      "desc": "Trip fuel cost estimate"
+    },
+    {
+      "id": "electricity-bill",
+      "name": "Electricity Bill Estimator",
+      "cluster": "daily",
+      "icon": "\u26a1",
+      "desc": "Monthly electricity cost"
+    },
+    {
+      "id": "internet-speed",
+      "name": "Internet Speed Tool",
+      "cluster": "daily",
+      "icon": "\ud83c\udf10",
+      "desc": "Speed test & converter"
+    },
+    {
+      "id": "password-generator",
+      "name": "Password Generator",
+      "cluster": "daily",
+      "icon": "\ud83d\udd10",
+      "desc": "Strong secure passwords"
+    },
+    {
+      "id": "bmi-calculator",
+      "name": "BMI Calculator",
+      "cluster": "health",
+      "icon": "\u2696\ufe0f",
+      "desc": "Body mass index checker"
+    },
+    {
+      "id": "calorie-calculator",
+      "name": "Calorie Calculator",
+      "cluster": "health",
+      "icon": "\ud83e\udd57",
+      "desc": "Daily calorie needs (TDEE)"
+    },
+    {
+      "id": "body-fat",
+      "name": "Body Fat Calculator",
+      "cluster": "health",
+      "icon": "\ud83d\udcaa",
+      "desc": "Estimate body fat %"
+    },
+    {
+      "id": "ideal-weight",
+      "name": "Ideal Weight Calculator",
+      "cluster": "health",
+      "icon": "\ud83c\udfaf",
+      "desc": "Healthy weight range"
+    },
+    {
+      "id": "water-intake",
+      "name": "Water Intake Calculator",
+      "cluster": "health",
+      "icon": "\ud83d\udca7",
+      "desc": "Daily hydration guide"
+    },
+    {
+      "id": "step-counter",
+      "name": "Step Counter",
+      "cluster": "health",
+      "icon": "\ud83d\udc5f",
+      "desc": "Steps to distance converter"
+    },
+    {
+      "id": "rent-vs-buy",
+      "name": "Rent vs Buy Calculator",
+      "cluster": "home",
+      "icon": "\ud83c\udfe1",
+      "desc": "Buy or rent analysis"
+    },
+    {
+      "id": "cost-of-living",
+      "name": "Cost of Living Calculator",
+      "cluster": "home",
+      "icon": "\ud83c\udf06",
+      "desc": "City cost comparison"
+    },
+    {
+      "id": "moving-cost",
+      "name": "Moving Cost Calculator",
+      "cluster": "home",
+      "icon": "\ud83d\udce6",
+      "desc": "Relocation cost estimate"
+    },
+    {
+      "id": "renovation-budget",
+      "name": "Renovation Budget",
+      "cluster": "home",
+      "icon": "\ud83d\udd28",
+      "desc": "Home reno cost planner"
+    },
+    {
+      "id": "zakat-calculator",
+      "name": "Zakat Calculator",
+      "cluster": "malaysia",
+      "icon": "\ud83d\udd4c",
+      "desc": "Zakat on income & savings"
+    },
+    {
+      "id": "sst-calculator",
+      "name": "SST Calculator",
+      "cluster": "malaysia",
+      "icon": "\ud83e\uddfe",
+      "desc": "Malaysia service & sales tax"
+    },
+    {
+      "id": "ptptn-calculator",
+      "name": "PTPTN Calculator",
+      "cluster": "malaysia",
+      "icon": "\ud83c\udf93",
+      "desc": "Student loan repayment"
+    },
+    {
+      "id": "road-tax-calculator",
+      "name": "Road Tax Calculator",
+      "cluster": "malaysia",
+      "icon": "\ud83d\ude97",
+      "desc": "Malaysia road tax estimate"
+    },
+    {
+      "id": "insurance-estimator",
+      "name": "Insurance Premium Estimator",
+      "cluster": "malaysia",
+      "icon": "\ud83d\udee1\ufe0f",
+      "desc": "Life & health insurance"
+    },
+    {
+      "id": "profit-margin",
+      "name": "Profit Margin Calculator",
+      "cluster": "malaysia",
+      "icon": "\ud83d\udcca",
+      "desc": "Business profitability"
+    }
+  ],
+  "metadata": {
+    "salary-calculator": {
+      "title": "Salary Calculator Malaysia - Net Pay After EPF, Tax & SOCSO | PeakToolsHub",
+      "desc": "Calculate your net take-home salary after EPF, income tax, SOCSO, and EIS deductions. Free salary calculator for Malaysia with accurate 2026 rates."
+    },
+    "income-tax-calculator": {
+      "title": "Malaysia Income Tax Calculator 2026 - LHDN Tax Estimator | PeakToolsHub",
+      "desc": "Calculate your Malaysian income tax liability for 2026. Free LHDN tax calculator with all relief categories and tax brackets."
+    },
+    "epf-calculator": {
+      "title": "EPF Calculator Malaysia - Retirement Savings Forecast | PeakToolsHub",
+      "desc": "Forecast your EPF retirement savings with our free calculator. Supports Malaysian (11%), foreigner (2%), and voluntary opt-out scenarios."
+    },
+    "loan-calculator": {
+      "title": "Loan Calculator - Monthly payment & interest | PeakToolsHub",
+      "desc": "Free loan calculator tool. Monthly payment & interest. No signup required, works on all devices."
+    },
+    "mortgage-calculator": {
+      "title": "Mortgage Calculator - Home loan calculator | PeakToolsHub",
+      "desc": "Free mortgage calculator tool. Home loan calculator. No signup required, works on all devices."
+    },
+    "car-loan-calculator": {
+      "title": "Car Loan Calculator - Vehicle financing calculator | PeakToolsHub",
+      "desc": "Free car loan calculator tool. Vehicle financing calculator. No signup required, works on all devices."
+    },
+    "credit-card-interest": {
+      "title": "Credit Card Interest - Interest & payoff calculator | PeakToolsHub",
+      "desc": "Free credit card interest tool. Interest & payoff calculator. No signup required, works on all devices."
+    },
+    "compound-interest": {
+      "title": "Compound Interest - Grow your investments | PeakToolsHub",
+      "desc": "Free compound interest tool. Grow your investments. No signup required, works on all devices."
+    },
+    "investment-returns": {
+      "title": "Investment Returns - Portfolio growth calculator | PeakToolsHub",
+      "desc": "Free investment returns tool. Portfolio growth calculator. No signup required, works on all devices."
+    },
+    "inflation-calculator": {
+      "title": "Inflation Calculator - Purchasing power over time | PeakToolsHub",
+      "desc": "Free inflation calculator tool. Purchasing power over time. No signup required, works on all devices."
+    },
+    "age-calculator": {
+      "title": "Age Calculator - Exact age in years/months/days | PeakToolsHub",
+      "desc": "Free age calculator tool. Exact age in years/months/days. No signup required, works on all devices."
+    },
+    "date-difference": {
+      "title": "Date Difference - Days between two dates | PeakToolsHub",
+      "desc": "Free date difference tool. Days between two dates. No signup required, works on all devices."
+    },
+    "working-days": {
+      "title": "Working Days Calculator - Business days between dates | PeakToolsHub",
+      "desc": "Free working days calculator tool. Business days between dates. No signup required, works on all devices."
+    },
+    "public-holidays": {
+      "title": "Public Holiday Calendar - Holidays by country | PeakToolsHub",
+      "desc": "Free public holiday calendar tool. Holidays by country. No signup required, works on all devices."
+    },
+    "long-weekend-planner": {
+      "title": "Long Weekend Planner - Find all long weekends | PeakToolsHub",
+      "desc": "Free long weekend planner tool. Find all long weekends. No signup required, works on all devices."
+    },
+    "annual-leave-optimizer": {
+      "title": "Annual Leave Optimizer - Maximize your days off | PeakToolsHub",
+      "desc": "Free annual leave optimizer tool. Maximize your days off. No signup required, works on all devices."
+    },
+    "school-holidays": {
+      "title": "School Holiday Calendar - School terms & holidays | PeakToolsHub",
+      "desc": "Free school holiday calendar tool. School terms & holidays. No signup required, works on all devices."
+    },
+    "countdown-timer": {
+      "title": "Countdown Timer - Count down to any event | PeakToolsHub",
+      "desc": "Free countdown timer tool. Count down to any event. No signup required, works on all devices."
+    },
+    "currency-converter": {
+      "title": "Currency Converter - 170+ world currencies | PeakToolsHub",
+      "desc": "Free currency converter tool. 170+ world currencies. No signup required, works on all devices."
+    },
+    "length-converter": {
+      "title": "Length Converter - mm, cm, m, km, inches, feet | PeakToolsHub",
+      "desc": "Free length converter tool. mm, cm, m, km, inches, feet. No signup required, works on all devices."
+    },
+    "weight-converter": {
+      "title": "Weight Converter - kg, lb, oz, stone and more | PeakToolsHub",
+      "desc": "Free weight converter tool. kg, lb, oz, stone and more. No signup required, works on all devices."
+    },
+    "temperature-converter": {
+      "title": "Temperature Converter - Celsius, Fahrenheit, Kelvin | PeakToolsHub",
+      "desc": "Free temperature converter tool. Celsius, Fahrenheit, Kelvin. No signup required, works on all devices."
+    },
+    "timezone-converter": {
+      "title": "Time Zone Converter - Convert between timezones | PeakToolsHub",
+      "desc": "Free time zone converter tool. Convert between timezones. No signup required, works on all devices."
+    },
+    "data-storage-converter": {
+      "title": "Data Storage Converter - MB, GB, TB and more | PeakToolsHub",
+      "desc": "Free data storage converter tool. MB, GB, TB and more. No signup required, works on all devices."
+    },
+    "speed-converter": {
+      "title": "Speed Converter - km/h, mph, knots, Mach | PeakToolsHub",
+      "desc": "Free speed converter tool. km/h, mph, knots, Mach. No signup required, works on all devices."
+    },
+    "cooking-converter": {
+      "title": "Cooking Converter - Cups, ml, tbsp, tsp | PeakToolsHub",
+      "desc": "Free cooking converter tool. Cups, ml, tbsp, tsp. No signup required, works on all devices."
+    },
+    "discount-calculator": {
+      "title": "Discount Calculator - Sale price & savings | PeakToolsHub",
+      "desc": "Free discount calculator tool. Sale price & savings. No signup required, works on all devices."
+    },
+    "percentage-calculator": {
+      "title": "Percentage Calculator - 3 percentage modes | PeakToolsHub",
+      "desc": "Free percentage calculator tool. 3 percentage modes. No signup required, works on all devices."
+    },
+    "tip-calculator": {
+      "title": "Tip Calculator - Split bills with tip | PeakToolsHub",
+      "desc": "Free tip calculator tool. Split bills with tip. No signup required, works on all devices."
+    },
+    "split-bill": {
+      "title": "Split Bill Calculator - Divide bills fairly | PeakToolsHub",
+      "desc": "Free split bill calculator tool. Divide bills fairly. No signup required, works on all devices."
+    },
+    "fuel-cost": {
+      "title": "Fuel Cost Calculator - Trip fuel cost estimate | PeakToolsHub",
+      "desc": "Free fuel cost calculator tool. Trip fuel cost estimate. No signup required, works on all devices."
+    },
+    "electricity-bill": {
+      "title": "Electricity Bill Estimator - Monthly electricity cost | PeakToolsHub",
+      "desc": "Free electricity bill estimator tool. Monthly electricity cost. No signup required, works on all devices."
+    },
+    "internet-speed": {
+      "title": "Internet Speed Tool - Speed test & converter | PeakToolsHub",
+      "desc": "Free internet speed tool tool. Speed test & converter. No signup required, works on all devices."
+    },
+    "password-generator": {
+      "title": "Password Generator - Strong secure passwords | PeakToolsHub",
+      "desc": "Free password generator tool. Strong secure passwords. No signup required, works on all devices."
+    },
+    "bmi-calculator": {
+      "title": "BMI Calculator - Body mass index checker | PeakToolsHub",
+      "desc": "Free bmi calculator tool. Body mass index checker. No signup required, works on all devices."
+    },
+    "calorie-calculator": {
+      "title": "Calorie Calculator - Daily calorie needs (TDEE) | PeakToolsHub",
+      "desc": "Free calorie calculator tool. Daily calorie needs (TDEE). No signup required, works on all devices."
+    },
+    "body-fat": {
+      "title": "Body Fat Calculator - Estimate body fat % | PeakToolsHub",
+      "desc": "Free body fat calculator tool. Estimate body fat %. No signup required, works on all devices."
+    },
+    "ideal-weight": {
+      "title": "Ideal Weight Calculator - Healthy weight range | PeakToolsHub",
+      "desc": "Free ideal weight calculator tool. Healthy weight range. No signup required, works on all devices."
+    },
+    "water-intake": {
+      "title": "Water Intake Calculator - Daily hydration guide | PeakToolsHub",
+      "desc": "Free water intake calculator tool. Daily hydration guide. No signup required, works on all devices."
+    },
+    "step-counter": {
+      "title": "Step Counter - Steps to distance converter | PeakToolsHub",
+      "desc": "Free step counter tool. Steps to distance converter. No signup required, works on all devices."
+    },
+    "rent-vs-buy": {
+      "title": "Rent vs Buy Calculator - Buy or rent analysis | PeakToolsHub",
+      "desc": "Free rent vs buy calculator tool. Buy or rent analysis. No signup required, works on all devices."
+    },
+    "cost-of-living": {
+      "title": "Cost of Living Calculator - City cost comparison | PeakToolsHub",
+      "desc": "Free cost of living calculator tool. City cost comparison. No signup required, works on all devices."
+    },
+    "moving-cost": {
+      "title": "Moving Cost Calculator - Relocation cost estimate | PeakToolsHub",
+      "desc": "Free moving cost calculator tool. Relocation cost estimate. No signup required, works on all devices."
+    },
+    "renovation-budget": {
+      "title": "Renovation Budget - Home reno cost planner | PeakToolsHub",
+      "desc": "Free renovation budget tool. Home reno cost planner. No signup required, works on all devices."
+    },
+    "zakat-calculator": {
+      "title": "Zakat Calculator - Zakat on income & savings | PeakToolsHub",
+      "desc": "Free zakat calculator tool. Zakat on income & savings. No signup required, works on all devices."
+    },
+    "sst-calculator": {
+      "title": "SST Calculator - Malaysia service & sales tax | PeakToolsHub",
+      "desc": "Free sst calculator tool. Malaysia service & sales tax. No signup required, works on all devices."
+    },
+    "ptptn-calculator": {
+      "title": "PTPTN Calculator - Student loan repayment | PeakToolsHub",
+      "desc": "Free ptptn calculator tool. Student loan repayment. No signup required, works on all devices."
+    },
+    "road-tax-calculator": {
+      "title": "Road Tax Calculator - Malaysia road tax estimate | PeakToolsHub",
+      "desc": "Free road tax calculator tool. Malaysia road tax estimate. No signup required, works on all devices."
+    },
+    "insurance-estimator": {
+      "title": "Insurance Premium Estimator - Life & health insurance | PeakToolsHub",
+      "desc": "Free insurance premium estimator tool. Life & health insurance. No signup required, works on all devices."
+    },
+    "profit-margin": {
+      "title": "Profit Margin Calculator - Business profitability | PeakToolsHub",
+      "desc": "Free profit margin calculator tool. Business profitability. No signup required, works on all devices."
+    }
+  }
+}
