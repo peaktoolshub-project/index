@@ -31,7 +31,7 @@ export async function onRequest(context) {
 
 async function serveHomepage(context) {
   // Serve static homepage from /public/index.html
-  return await context.env.ASSETS.fetch(context.request);
+  return await context.next();
 }
 
 async function serveToolPage(context, tool) {
